@@ -1,0 +1,20 @@
+development:
+  clients:
+    default:
+      database: sample_app_development
+      hosts:
+        - 3.8.197.59:2717
+      options:
+
+  options:
+
+test:
+  clients:
+    default:
+      database: sample_app_test
+      hosts:
+        - 3.8.197.59:2717
+      options:
+        read:
+          mode: :primary
+        max_pool_size: 1
