@@ -1,9 +1,11 @@
 # routes
 
-get  '/'
+get
+----
 curl --location --request GET 'http://127.0.0.1:3000/'
 
-post  '/'
+post
+----
 curl --location --request POST 'http://127.0.0.1:3000/'
 
 
